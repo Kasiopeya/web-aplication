@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Oswald';
+    background-color: beige;
+}
+
+div {
+    display: flex;
+}
+
+input {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+button {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    font-size: 1.1rem;
+    padding: 0.2rem; 
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.container {
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.container div {
+    gap: 2rem;
+}
+
+
